@@ -69,7 +69,7 @@
     </nav>
      {{-- End Navbar --}}
 
-    <div class="container" style="margin-top: 100px">
+    <div class="container" style="margin-top: 80px; margin-bottom: 100px; padding:25px;">
         <form action="{{ url('/') }}" method="GET">
             @csrf
             <div class="card shadow">
