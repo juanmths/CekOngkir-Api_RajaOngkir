@@ -36,13 +36,15 @@
 
 <body class="bg-dark">
     {{-- Navbar --}}
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}"><i class="fa fa-terminal"></i> Cek<strong>Ongkir</strong><br></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -136,7 +138,7 @@
                     <div class="row mt-3">
                         <div class="col">
                             <div class="form-group">
-                                <button type="submit" class="btn btn-info btn-block shadow">Cek Ongkir</button>
+                                <button type="submit" class="btn btn-warning btn-block shadow">Cek Ongkir</button>
                             </div>
                         </div>
                     </div>
@@ -186,8 +188,8 @@
     <!-- Akhir Contact Us -->
 
     <!-- Footer -->
-    <footer class="text-white text-center pt-3 fixed-bottom bg-info shadow">
-      <p>Created with <i class="fa fa-coffee"></i> by <a class="text-white font-weight-bold" href="https://www.instagram.com/juanmthss/" target="_blank" title="Juan Matheus">Juan Matheus</a></p>
+    <footer class="text-dark text-center pt-3 fixed-bottom bg-warning shadow">
+      <p>Created with <i class="fa fa-coffee"></i> by <a class="text-primary font-weight-bold" href="https://www.instagram.com/juanmthss/" target="_blank" title="Juan Matheus">Juan Matheus</a></p>
     </footer>
     <!-- Akhir Footer -->
     {{-- Bootstrap Js --}}
