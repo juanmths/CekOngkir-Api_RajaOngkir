@@ -36,7 +36,7 @@
 
 <body class="bg-dark">
     {{-- Navbar --}}
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info shadow">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}"><i class="fa fa-terminal"></i> Cek<strong>Ongkir</strong><br></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -138,7 +138,7 @@
                     <div class="row mt-3">
                         <div class="col">
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-block shadow">Cek Ongkir</button>
+                                <button type="submit" class="btn btn-info btn-block shadow">Cek Ongkir</button>
                             </div>
                         </div>
                     </div>
@@ -188,8 +188,8 @@
     <!-- Akhir Contact Us -->
 
     <!-- Footer -->
-    <footer class="text-dark text-center pt-3 fixed-bottom bg-primary shadow">
-      <p>Created with <i class="fa fa-coffee"></i> by <a class="text-primary font-weight-bold" href="https://www.instagram.com/juanmthss/" target="_blank" title="Juan Matheus">Juan Matheus</a></p>
+    <footer class="text-dark text-center pt-3 fixed-bottom bg-info shadow">
+      <p>Created with <i class="fa fa-coffee"></i> by <a class="text-info font-weight-bold" href="https://www.instagram.com/juanmthss/" target="_blank" title="Juan Matheus">Juan Matheus</a></p>
     </footer>
     <!-- Akhir Footer -->
     {{-- Bootstrap Js --}}
