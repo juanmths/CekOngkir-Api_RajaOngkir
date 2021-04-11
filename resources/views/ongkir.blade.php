@@ -189,7 +189,7 @@
 
     <!-- Footer -->
     <footer class="text-dark text-center pt-3 fixed-bottom bg-info shadow">
-      <p>Created with <i class="fa fa-coffee"></i> by <a class="text-info font-weight-bold" href="https://www.instagram.com/juanmthss/" target="_blank" title="Juan Matheus">Juan Matheus</a></p>
+      <p>Created with <i class="fa fa-coffee"></i> by <a class="text-dark font-weight-bold" href="https://www.instagram.com/juanmthss/" target="_blank" title="Juan Matheus">Juan Matheus</a></p>
     </footer>
     <!-- Akhir Footer -->
     {{-- Bootstrap Js --}}
